@@ -9,4 +9,3 @@ this is add something on the topic2 branch.
 test split one commit. this is the first split-commit for commit.
 this is the second split-commit for commit.
 the one.
-the two.
