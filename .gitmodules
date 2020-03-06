@@ -1,0 +1,3 @@
+[submodule "sub_projects"]
+	path = sub_projects
+	url = https://github.com/Oven-Liu/project_for_sub.git
