@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "d0c7600d-a539-4081-ad74-3d90c67f32f1",
+		"name": "test-api-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "5814548-d0c7600d-a539-4081-ad74-3d90c67f32f1"
+	},
+	"item": [
+		{
+			"name": "login",
+			"id": "95067c53-e427-49ec-b7f1-aa93e15db49c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"u\": \"admin\",\r\n    \"p\": \"admin@6789\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server_suifang}}/api/login",
+					"host": [
+						"{{server_suifang}}"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

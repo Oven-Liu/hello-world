@@ -9,10 +9,16 @@ id = 63a9ea84-66e6-4df1-8111-a03bccb6304f
 
 [config.relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"5814548-fdfc7108-3853-4601-a6fb-394660c39f16","path":"collection-from-definition.json","metaData":{"generateCollectionPreferences":"{\"requestNameSource\":\"Fallback\",\"indentCharacter\":\"Space\",\"parametersResolution\":\"Schema\",\"folderStrategy\":\"Paths\",\"includeAuthInfoInExample\":true,\"enableOptionalParameters\":true,\"keepImplicitHeaders\":false,\"includeDeprecated\":true,\"updateCollectionSync\":true,\"requestParametersResolution\":\"Schema\",\"exampleParametersResolution\":\"Schema\"}"}}
+files[] = {"id":"5814548-d0c7600d-a539-4081-ad74-3d90c67f32f1","path":"test-api-collection.json","metaData":{}}
+files[] = {"id":"5814548-877f7448-e576-4870-a3bc-a897751fd3e2","path":"work-hzkj.json","metaData":{}}
 
 [config.relations.collections.metaData]
 
 [config.relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"index.yaml","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
+rootFiles[] = index.yaml
+type = openapi:3
